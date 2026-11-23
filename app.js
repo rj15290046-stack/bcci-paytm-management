@@ -1,0 +1,1 @@
+document.getElementById('year')&&(document.getElementById('year').textContent=new Date().getFullYear());const f=document.getElementById('payform');if(f)f.addEventListener('submit',e=>{e.preventDefault();const m=document.getElementById('msg');m.textContent='Website preview: payment gateway is not connected yet. No payment was charged or initiated.';m.classList.remove('hidden');});
